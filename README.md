@@ -11,3 +11,4 @@
 #### Notes on Ember 2.*
 * The goal of Ember 2 is to remove badly designed and unnecessarily complicated code from Ember 1. And apps that run on Ember 1.13 without any deprecation warnings should run without issues on Ember 2.0. 
 * Components must have at least one dash in their name, e.g active-list. This helps Ember differentiate it from native HTML tags.
+* Controllers are routable objects meant to decorate a model with display logic. They sit between the template and model to deal with logic and properties that do not belong to the view or the model.
